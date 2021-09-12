@@ -1,0 +1,123 @@
+@import url(‘https://fonts.googleapis.com/css2?family=Inter&display=swap’);
+body {
+margin: 0;
+font-family: ‘Inter’, sans-serif;
+}
+.clearfix{clear:both;}
+* {
+box-sizing: border-box;
+}
+a {
+text-decoration: none;
+}
+p {
+margin: 0;
+padding: 0;
+}
+.wrapper {
+width: 100%;
+padding-right: 15px;
+padding-left: 15px;
+padding-top: 2em;
+margin-right: auto;
+margin-left: auto;
+}
+@media (min-width: 576px) {
+.wrapper {
+max-width: 540px;
+}
+}
+@media (min-width: 768px) {
+.wrapper {
+max-width: 720px;
+}
+}
+@media (min-width: 992px) {
+.wrapper {
+max-width: 960px;
+}
+}
+@media (min-width: 1200px) {
+.wrapper {
+max-width: 1140px;
+}
+}
+.form {
+margin: 0 auto;
+max-width: 647px;
+padding: 27px 37px;
+border-radius: 10px;
+box-shadow: 1px 0px 10px #07a8ff82;
+}
+.form h2 {
+font-size: 30px;
+line-height: 45px;
+color: #07a8ff;
+margin-bottom: 20px;
+text-transform: capitalize;
+font-weight: 600;
+margin-top: 37px;
+text-shadow: 1px 1px 1px #8a9194;
+}
+.form h3 {
+font-size: 30px;
+line-height: 45px;
+color: #07a8ff;
+margin-bottom: 20px;
+text-transform: capitalize;
+font-weight: 600;
+margin-top: 0px;
+text-shadow: 1px 1px 1px #8a9194;
+}
+.form p {
+font-size: 17px;
+margin-bottom: 17px;
+font-weight: 400;
+}
+.form label {
+font-size: 16px;
+line-height: 25px;
+margin-bottom: 5px;
+color: #333333;
+display: block;
+}
+.form input[type="text"]{
+outline: none;
+width: 100%;
+font-size: 16px;
+line-height: 25px;
+padding: 12px 20px;
+margin-bottom: 15px;
+color: #333;
+padding: 12px 20px;
+font-family: inherit;
+text-align: left;
+-webkit-appearance: none;
+background: rgba(255, 154, 66, 0.02);
+display: grid;
+align-items: center;
+padding-left: 15px;
+border: 1px solid #ccc;
+border-radius: 4px;
+}
+.form__inner input[type=”text”]:focus {
+border: 1px solid #fd5f00;
+background: #fff;
+}
+.btn {
+text-decoration: none;
+border: none;
+cursor: pointer;
+padding: 12px 27px;
+font-size: 18px;
+line-height: 25px;
+text-align: center;
+color: #fff;
+background: #0fa8ff;
+display: inline-block;
+border-radius: 4px;
+}
+.btn:hover {
+background: #0374b6;
+transition: 0.3s ease;
+}
